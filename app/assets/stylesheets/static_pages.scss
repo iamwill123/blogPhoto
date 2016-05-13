@@ -1,0 +1,43 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body { padding-top: 70px; }
+
+.h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+//Nav Bar icon
+#img-navbar {
+  width: 40px;
+  position: relative;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .navbar-right {
+    margin-right: 15px;
+  }
+}
+.navbar-toggle { 
+  margin-right: 30px; 
+  background-color: rgba(255, 255, 255, 1);
+  }
+.navbar-collapse { padding-left: 40px; }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #D6A200;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
+.navbar-brand {
+  position: relative;
+  padding: 9px 16px;
+  margin-right: 32px;
+}
+.navbar-inverse {
+  background-color: rgba(84, 80, 82, 0);
+  border-color: rgba(84, 80, 82, 0.3);
+}
+
