@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Fashion News</h1>
+
+<div class="container-fluid">
+  <div class="row">
+    <%= render @articles %> <!-- shorthand -->
+  </div>
+</div>
+<br>
+
+<%= link_to 'New Article', new_article_path %>
