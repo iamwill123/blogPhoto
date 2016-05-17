@@ -1,7 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Fashion News</h1>
-
+<h2><%= link_to 'Add new article', new_article_path %></h2>
 <div class="container-fluid">
   <div class="row">
     <%= render @articles %> <!-- shorthand -->
@@ -9,4 +8,4 @@
 </div>
 <br>
 
-<%= link_to 'New Article', new_article_path %>
+

@@ -1,0 +1,14 @@
+<h1>FEATURED</h1>
+
+<% @featured_article.each do |article| %>
+<div class="item<%= " active" if article == @featured_article.first %>">
+<h1><!-- Blog title --><%= link_to article.title, article %><br>
+</h1>
+<h5><%= article.author %></h5>
+<div id="bannerImage">
+      <%= image_tag(article.image_url, id:"featuredArticles", class: "img-responsive") %>
+</div>
+<h3><%= link_to 'Read More', article %></h3>
+<% end %>
+
+</section>
